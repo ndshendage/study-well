@@ -1,0 +1,35 @@
+p "Enter Your age"
+age = gets.to_i
+
+if age >65
+ p "You can get the benefits of being senior citizen"
+elsif age > 18
+ p "You are the adult citizen of an india"
+ else
+ p "You are under age "
+ end
+ 
+ 
+ 
+ 
+ 
+ 
+p "I want to execute the  unless block"
+
+condition = age < 65
+
+p "condition = #{condition.inspect}"
+
+unless age < 65
+  p "condition is #{condition.inspect} and i am executing into the unless block" 
+  p "You can get the benefits of being senior citizen"
+ else
+ if age > 18
+  p "You are the adult citizen of an india"
+  else
+ p "You are under age "
+ end
+ end
+ 
+   
+  
