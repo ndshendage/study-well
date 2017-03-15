@@ -59,7 +59,7 @@ a.insert(index,  element) => inserts at that index its index and then shifts the
  
  
  
-Array set operations  =>
+#Array set operations  =>
 
 m = [1,2,3,4,5]
 n = [4,5,6,7,8]
@@ -71,6 +71,12 @@ a.find_index(value) => will get result  .. returns nil if its not there
 
 m * integer => every element will be duplicated for integer times
 m * ""  => entire array will be string
+
+if you find out does the element contains in the array ??
+
+[1,2,3,4,5,6,8].any? {|element| [8,9,10,11].include?element}   #enumerator of an array
+=> This  working as normal each element taken out and check with given range ... #boolean result is returned
+
 
 
 array comparisons => 
